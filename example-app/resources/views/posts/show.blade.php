@@ -9,9 +9,9 @@
     <h1>Post{{ $onepost->id }}</h1>
 
     <div class="post_container">
-        <p>{{$post->author}}</p>
-        <p>{{$post->title}}</p>
-        <p>{{$post->content}}</p>
+        <p>{{$onepost->author}}</p>
+        <p>{{$onepost->title}}</p>
+        <p>{{$onepost->content}}</p>
     </div>
 
     <a href="/posts">Back to all posts</a>
