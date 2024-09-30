@@ -13,7 +13,7 @@
                 Author: {{ $post->author }},
                 Title: {{ $post->title }},
                 Content: {{ $post->content }}
-                <a href="/posts/{{ $post->id }}">Show</a>
+                <a href="/posts/{{ $post->id }}/show">Show</a>
             </li>
         @endforeach
     </ul>
