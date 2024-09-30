@@ -15,4 +15,10 @@ class PostController extends Controller
         
     //metode, kas atgriež visus Post ierakstus
     }
+
+    public function show($id){
+        // \Log::debug($id);
+        $post = Post::find($id); 
+        return view('posts.show', ['onepost' => $post]); 
+    }
 }
