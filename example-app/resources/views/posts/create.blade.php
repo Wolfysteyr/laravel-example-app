@@ -15,8 +15,8 @@
         <label for="title">Title: </label>
         <input type="text" name="title" id="title"><br>
 
-        <label for="textarea">Content: </label>
-        <textarea name="textarea" id="textarea"></textarea>
+        <label for="content">Content: </label>
+        <textarea name="content" id="content"></textarea>
         <input type="submit" value="Save">
     </form>
 </body>
